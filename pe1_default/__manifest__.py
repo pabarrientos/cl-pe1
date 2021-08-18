@@ -67,9 +67,9 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:sebatista/cl-pe1.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
+        'https://github.com/sebatista/cl-pe1.git',
+        'https://github.com/jobiols/odoo-jeo-ce.git',
+        'https://github.com/jobiols/odoo-private-addons.git',
 
         # OCA 				# ===========================================================================
         'https://github.com/OCA/account-analytic',
