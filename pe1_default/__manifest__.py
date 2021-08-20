@@ -26,10 +26,6 @@
     'author': "jeo Software",
     'website': 'http://github.com/sebatista/cl-pe1',
     'license': 'AGPL-3',
-    'depends': [
-        'standard_depends_ce'
-        ],
-    'installable': True,
 
     # manifest version, if omitted it is backward compatible
     'env-ver': '2',
@@ -65,6 +61,24 @@
     ],
 
     'port': '8069',
+    
+    'depends': [
+        'standard_depends_ce',
+
+        # Ventas
+
+        # Website, E-Commerce, CRM, 
+        #'website_sale',             # Depends on website, sale, 
+        'website_crm',              # Depends on crm, website_form
+        'website_cookie_notice',    # Depends on website_legal_page
+        'website_animate',          # Depends on website
+        'website_form',             # Depends on website, mail
+        'website_sale_comparison',  # Depends on website_sale
+
+        # Pasarelas de Pago
+        
+        ],
+    'installable': True,
 
     'git-repos': [
         'https://github.com/sebatista/cl-pe1.git',
