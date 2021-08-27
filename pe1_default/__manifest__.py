@@ -65,14 +65,18 @@
     'depends': [
         'standard_depends_ce',
 
-        # Ventas
+        # Ventas / Compras
 		# =================================================================
-        'point_of_sale',
+        'point_of_sale',			# Depends on stock_account, barcodes, web_editor, digest
+		'pos_epson_printer',		# Depends on point_of_sale
         'sale_management',          # Depends on sale, digest
-
+		'purchase',					# Depends on account
+		'purchase_request',			# Depends on purchase, product, purchase_stock
 
         # Pasarelas de Pago
-		
+		# =================================================================
+		#'MERCADO PAGO',
+		#'OTROS???',
 		
         # Website, E-Commerce, CRM, 
 		# =================================================================
@@ -83,6 +87,14 @@
         #'website_form',             # Depends on website, mail
         #'website_sale_comparison',  # Depends on website_sale
         
+		# Miscelaneos
+		# =================================================================
+		'board',					# Depends on base, web
+		'mail', 					# Depends on base, base_setup, bus, web_tour
+		'base_ux',					# Depends on base, mail
+		'delivery_ux',				# Depends on delivery
+		'product_ux',				# Depends on product
+		
         ],
     'installable': True,
 
