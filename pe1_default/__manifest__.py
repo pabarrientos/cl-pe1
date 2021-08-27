@@ -66,16 +66,22 @@
         'standard_depends_ce',
 
         # Ventas
+		# =================================================================
+        'point_of_sale',
+        'sale_management',          # Depends on sale, digest
 
-        # Website, E-Commerce, CRM, 
-        #'website_sale',             # Depends on website, sale, 
-        'website_crm',              # Depends on crm, website_form
-        'website_cookie_notice',    # Depends on website_legal_page
-        'website_animate',          # Depends on website
-        'website_form',             # Depends on website, mail
-        'website_sale_comparison',  # Depends on website_sale
 
         # Pasarelas de Pago
+		
+		
+        # Website, E-Commerce, CRM, 
+		# =================================================================
+        #'website_sale',             # Depends on website, sale, 
+        #'website_crm',              # Depends on crm, website_form
+        #'website_cookie_notice',    # Depends on website_legal_page
+        #'website_animate',          # Depends on website
+        #'website_form',             # Depends on website, mail
+        #'website_sale_comparison',  # Depends on website_sale
         
         ],
     'installable': True,
@@ -97,7 +103,7 @@
         'https://github.com/OCA/account-reconcile oca-account-reconcile',
         'https://github.com/OCA/apps-store oca-apps-store',
         'https://github.com/OCA/bank-payment oca-bank-payment',
-        'https://github.com/OCA/brand rest-brand',
+        'https://github.com/OCA/brand oca-brand',
         'https://github.com/OCA/business-requirement oca-business-requirement',
         'https://github.com/OCA/commission oca-commission',
         'https://github.com/OCA/contract oca-contract',
@@ -141,7 +147,7 @@
         'https://github.com/OCA/queue oca-queue',
         'https://github.com/OCA/reporting-engine oca-reporting-engine',
         'https://github.com/OCA/report-print-send oca-report-print-send',
-        'https://github.com/OCA/rest-framework rest-framework',
+        'https://github.com/OCA/rest-framework oca-rest-framework',
         'https://github.com/OCA/rma oca-rma',
         'https://github.com/OCA/role-policy oca-role-policy',
         'https://github.com/OCA/sale-reporting oca-sale-reporting',
