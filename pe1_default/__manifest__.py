@@ -229,7 +229,7 @@
 		'https://github.com/Openworx/backend_theme ow-backend_theme',
 		
 		# Muk-it 			# ===========================================================================
-		'https://github.com/muk-it/muk_bundles muk-muk_bundles',
+		#'https://github.com/muk-it/muk_bundles muk-muk_bundles',	# No disponen de versión 13.0, Habría que realizar un fork y crear el branch
 		
 		# Xao Xao Digital 	# ===========================================================================
 		#'', #Queda pendiente subir el tema a un repositorio de Sebatista
