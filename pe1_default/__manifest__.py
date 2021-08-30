@@ -65,7 +65,7 @@
     'depends': [
         # Dependencias estandar de la localización argentina
 		# =================================================================
-		# 'standard_depends_ce',
+		'standard_depends_ce',
 
         # Ventas / Compras
 		# =================================================================
@@ -223,6 +223,16 @@
 		
         # Gabriela Rivero 	# ===========================================================================
         'https://github.com/odoomates/odooapps odoomates-odooapps',
+		
+        # OpenWorx 			# ===========================================================================
+        'https://github.com/Openworx/odoo-addons ow-odoo-addons',
+		'https://github.com/Openworx/backend_theme ow-backend_theme',
+		
+		# Muk-it 			# ===========================================================================
+		'https://github.com/muk-it/muk_bundles muk-muk_bundles',
+		
+		# Xao Xao Digital 	# ===========================================================================
+		#'', #Queda pendiente subir el tema a un repositorio de Sebatista
 		
     ],
 
