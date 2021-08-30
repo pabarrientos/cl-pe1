@@ -63,7 +63,9 @@
     'port': '8069',
     
     'depends': [
-        'standard_depends_ce',
+        # Dependencias estandar de la localización argentina
+		# =================================================================
+		# 'standard_depends_ce',
 
         # Ventas / Compras
 		# =================================================================
