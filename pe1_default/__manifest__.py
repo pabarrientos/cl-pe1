@@ -233,6 +233,8 @@
 		
 		# Xao Xao Digital 	# ===========================================================================
 		#'', #Queda pendiente subir el tema a un repositorio de Sebatista
+
+        'https://github.com/regaby/l10n_ar_fe_qr.git regaby-odoo-custom/l10n_ar_fe_qr',
 		
     ],
 
