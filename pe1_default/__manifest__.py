@@ -24,7 +24,7 @@
     'category': 'Tools',
     'summary': "Pack Emprendedor 1 for v13 CE",
     'author': "jeo Software",
-    'website': 'http://github.com/sebatista/cl-pe1',
+    'website': 'http://github.com/pabarrientos/cl-pe1',
     'license': 'AGPL-3',
 
     # manifest version, if omitted it is backward compatible
@@ -42,22 +42,22 @@
         # You should use 2 worker threads + 1 cron thread per available CPU,
         # and 1 CPU per 10 concurent users.
         # if ommited oe will calculate workers and cron´s based on # of cpu
-                'workers = 5',
-                'max_cron_threads = 1',
+                #'workers = 5',
+                #'max_cron_threads = 1',
 
         # Number of requests a worker will process before being recycled and
         # restarted. Defaults to 8192 if ommited
-                'limit_request = 8192',
+                #'limit_request = 8192',
 
         # Maximum allowed virtual memory per worker. If the limit is exceeded,
         # the worker is killed and recycled at the end of the current request.
         # Defaults to 640MB
-                'limit_memory_soft = 2147483648',
+                #'limit_memory_soft = 2147483648',
 
         # Hard limit on virtual memory, any worker exceeding the limit will be
         # immediately killed without waiting for the end of the current request
         # processing. Defaults to 768MB.
-                'limit_memory_hard = 2684354560',
+                #'limit_memory_hard = 2684354560',
     ],
 
     'port': '8069',
@@ -101,7 +101,7 @@
     'installable': True,
 
     'git-repos': [
-        'https://github.com/sebatista/cl-pe1.git',
+        'https://github.com/pabarrientos/cl-pe1.git',
         'https://github.com/jobiols/odoo-jeo-ce.git',
         'https://github.com/jobiols/odoo-private-addons.git',
 
@@ -222,7 +222,7 @@
         'https://github.com/odoomates/odooapps odoomates-odooapps',
 		
         # Gabriela Rivero 	# ===========================================================================
-        'https://github.com/odoomates/odooapps odoomates-odooapps',
+        'https://github.com/regaby/odoo-custom regaby-odoo-custom',
 		
         # OpenWorx 			# ===========================================================================
         'https://github.com/Openworx/odoo-addons ow-odoo-addons',
